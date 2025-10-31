@@ -53,9 +53,9 @@ exclude:
 
 # Collections
 collections:
-  projects:
+  work:
     output: true
-    permalink: /projects/:name/
+    permalink: /work/:name/
 
 # Defaults
 defaults:
@@ -76,10 +76,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _projects
+  # _work
   - scope:
       path: ""
-      type: projects
+      type: work
     values:
       layout: single
       author_profile: false

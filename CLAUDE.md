@@ -11,12 +11,12 @@
 
 ```
 ├── _config.yml              # Theme config, author info, site settings
-├── _data/navigation.yml     # Top menu (Home, Projects, About)
+├── _data/navigation.yml     # Top menu (Home, Work, About)
 ├── _pages/
 │   ├── index.md            # Homepage - experience summary
 │   ├── about.md            # Education, contact, tech stack
-│   └── projects.md         # Projects overview
-├── _projects/               # One file per company
+│   └── work.md         # Work Ex overview
+├── _work/               # One file per company
 │   ├── ninjacart.md        # 2019-2021
 │   ├── shadowfax.md        # 2021-2022
 │   └── gojek.md            # 2022-Present
@@ -40,7 +40,7 @@
 
 ### Company Page Template
 ```markdown
-## Project Name
+## Company Name
 
 Brief 1-2 sentence description.
 
@@ -81,7 +81,7 @@ author_profile: true
 ---
 ```
 
-**Projects:**
+**Work:**
 ```yaml
 ---
 layout: single
@@ -95,8 +95,8 @@ period: YYYY-YYYY
 ## How to Update
 
 ### Add New Company
-1. Create `_projects/company-name.md`
-2. Update `_pages/projects.md` (add to list)
+1. Create `_work/company-name.md`
+2. Update `_pages/work.md` (add to list)
 3. Update `_pages/index.md` (add to experience)
 4. Follow template above (450-900 words)
 
@@ -132,5 +132,5 @@ Live at: `https://vishsak09.github.io`
 **Contact:** `_config.yml` (author section) + `_pages/about.md`
 **Navigation:** `_data/navigation.yml`
 **Theme skin:** `_config.yml` → `minimal_mistakes_skin`
-**Projects:** `_projects/*.md`
+**Work Experience:** `_work/*.md`
 **Pages:** `_pages/*.md`
