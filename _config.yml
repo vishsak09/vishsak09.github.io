@@ -17,7 +17,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Author
 author:
   name: "Sakshi Vishnoi"
-  avatar: # "/assets/images/bio-photo.jpg" # Add your photo here if you have one
+  avatar: "/assets/portfolio.jpg"
   bio: "Operations Research & Supply Chain Engineer specializing in logistics optimization, marketplace systems, and ML-driven decision engines."
   location: "Bengaluru, India"
   email: "vishsak09@gmail.com"
