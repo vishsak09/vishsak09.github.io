@@ -6,7 +6,7 @@ permalink: /
 
 # Portfolio
 
-Operations Research & Supply Chain Scientist with expertise in logistics engines, marketplace systems, and ML modelling.
+Operations Research & Supply Chain Engineer with expertise in logistics engines, marketplace systems, and ML modelling.
 
 ## Experience
 
