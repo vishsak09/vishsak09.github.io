@@ -1,6 +1,8 @@
 ---
-layout: default
+layout: single
 title: About
+permalink: /about/
+author_profile: true
 ---
 
 # Sakshi Vishnoi
@@ -10,21 +12,33 @@ title: About
 **LinkedIn:** [linkedin.com/in/sakshivishnoi](https://linkedin.com/in/sakshivishnoi)
 **Phone:** (+91) 7906063513
 
+---
+
 ## Education
 
-**IIM Mumbai (Formerly NITIE)** — Mumbai, India
-Masters in Operations Research & Supply Chain (PGDIE), 2019
-GPA: 8.5 | Director's Award for Best Final Year Project
+### IIM Mumbai (Formerly NITIE)
+**Masters in Operations Research & Supply Chain (PGDIE)** \| 2019
+Mumbai, India
 
-**Dr. A.P.J Abdul Kalam Technical University (AKTU)** — Ghaziabad, India
-B.Tech - Computer Science and Engineering, 2016
-70% | GATE CSE 2017: All India Rank 380 (99.6 percentile)
+- GPA: 8.5
+- Director's Award for Best Final Year Project
+
+### Dr. A.P.J Abdul Kalam Technical University (AKTU)
+**B.Tech - Computer Science and Engineering** \| 2016
+Ghaziabad, India
+
+- Percentage: 70%
+- GATE CSE 2017: All India Rank 380 (99.6 percentile)
+
+---
 
 ## Focus Areas
 
 - Logistics & Supply Chain Optimization
 - Marketplace Allocation Systems
 - Operations Research & ML
+
+---
 
 ## Tech Stack
 
