@@ -1,0 +1,142 @@
+---
+layout: default
+---
+
+<article class="project">
+  <header class="project-header">
+    <h1 class="project-title">{{ page.title }}</h1>
+
+    <div class="project-meta">
+      {% if page.company %}
+        <span class="meta-item"><strong>Company:</strong> {{ page.company }}</span>
+      {% endif %}
+
+      {% if page.duration %}
+        <span class="meta-item"><strong>Duration:</strong> {{ page.duration }}</span>
+      {% endif %}
+
+      {% if page.role %}
+        <span class="meta-item"><strong>Role:</strong> {{ page.role }}</span>
+      {% endif %}
+    </div>
+
+    {% if page.technologies %}
+    <div class="technologies">
+      <strong>Tech Stack:</strong>
+      <ul class="tech-list">
+        {% for tech in page.technologies %}
+          <li class="tech-tag">{{ tech }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </header>
+
+  <div class="project-content">
+    {{ content }}
+  </div>
+
+  <footer class="project-footer">
+    <a href="{{ '/projects' | relative_url }}" class="back-link">← Back to All Projects</a>
+  </footer>
+</article>
+
+<style>
+.project-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.project-title {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.technologies {
+  margin-top: 1rem;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5rem;
+}
+
+.tech-tag {
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.project-content {
+  line-height: 1.7;
+  margin: 2rem 0;
+}
+
+.project-content h2 {
+  margin-top: 2rem;
+  color: #34495e;
+  border-bottom: 1px solid #ecf0f1;
+  padding-bottom: 0.5rem;
+}
+
+.project-content h3 {
+  margin-top: 1.5rem;
+  color: #555;
+}
+
+.project-content ul, .project-content ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+.project-content li {
+  margin: 0.5rem 0;
+}
+
+.project-content code {
+  background: #f5f5f5;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.project-content pre {
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.project-footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.back-link {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+</style>

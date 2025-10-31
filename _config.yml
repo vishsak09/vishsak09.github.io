@@ -1,0 +1,53 @@
+# Site settings
+title: Sakshi Vishnoi - Portfolio
+description: >-
+  Operations Research & Supply Chain professional specializing in logistics optimization,
+  marketplace systems, and ML-driven decision engines.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+theme: minima
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Author information
+author:
+  name: Sakshi Vishnoi
+  email: vishsak09@gmail.com
+  linkedin: sakshivishnoi
+  github: vishsak09
+
+# Navigation
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
+
+# Collections for organizing projects
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - README.md
