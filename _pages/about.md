@@ -7,10 +7,10 @@ author_profile: true
 
 # Sakshi Vishnoi
 
-**Location:** Bengaluru, India
-**Email:** vishsak09@gmail.com
-**LinkedIn:** [linkedin.com/in/sakshivishnoi](https://linkedin.com/in/sakshivishnoi)
-**Phone:** (+91) 7906063513
+- **Location:** Bengaluru, India
+- **Email:** vishsak09@gmail.com
+- **LinkedIn:** [linkedin.com/in/sakshivishnoi](https://linkedin.com/in/sakshivishnoi)
+- **Phone:** (+91) 7906063513
 
 ---
 
