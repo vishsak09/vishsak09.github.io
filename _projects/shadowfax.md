@@ -5,6 +5,7 @@ period: 2021-2022
 ---
 
 # Shadowfax (2021-2022)
+**Role:** Data Scientist
 
 ## Hyperlocal Allocation System Refactoring
 

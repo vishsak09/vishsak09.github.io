@@ -5,6 +5,7 @@ period: 2022-Present
 ---
 
 # Gojek (2022-Present)
+**Role:** Senior Data Scientist
 
 ## GOTO Logistics
 

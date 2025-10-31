@@ -5,6 +5,7 @@ period: 2019-2021
 ---
 
 # Ninjacart (2019-2021)
+**Role:** Data Scientist
 
 ## Logistics Control Tower KPIs & Dashboard
 

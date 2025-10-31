@@ -1,0 +1,83 @@
+---
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// Custom overrides for more compact layout
+html {
+  font-size: 14px; // Reduced from 16px
+
+  @include breakpoint($medium) {
+    font-size: 15px; // Reduced from 18px
+  }
+
+  @include breakpoint($large) {
+    font-size: 16px; // Reduced from 20px
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 17px; // Reduced from 22px
+  }
+}
+
+// Reduce heading sizes
+h1 {
+  font-size: 1.8em; // Reduced from 2em
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.4em; // Reduced from 1.5em
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 1.15em; // Reduced from 1.25em
+  margin-top: 0.8em;
+  margin-bottom: 0.4em;
+}
+
+// Reduce line height
+p, li {
+  line-height: 1.5; // Reduced from 1.6
+}
+
+// Reduce spacing between sections
+.page__content {
+  p, li, dl {
+    margin-bottom: 0.8em; // Reduced from 1em
+  }
+
+  ul, ol {
+    margin-bottom: 1em; // Reduced from 1.3em
+  }
+}
+
+// Make author sidebar more compact
+.sidebar {
+  @include breakpoint($large) {
+    width: calc(200px - 1em); // Reduced from 300px
+  }
+
+  @include breakpoint($x-large) {
+    width: calc(250px - 1em); // Reduced from 300px
+  }
+}
+
+// Adjust main content width
+.page {
+  @include breakpoint($large) {
+    padding-right: 200px; // Match sidebar width
+  }
+
+  @include breakpoint($x-large) {
+    padding-right: 250px; // Match sidebar width
+  }
+}
+
+// Reduce spacing around horizontal rules
+hr {
+  margin: 1.5em 0; // Reduced from 2em
+}
