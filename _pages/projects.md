@@ -7,7 +7,7 @@ author_profile: true
 
 # Projects
 
-## [Gojek]({{ '/projects/gojek' | relative_url }}) (2022 - Present)
+## [Senior Data Scientist @ Gojek]({{ '/projects/gojek' | relative_url }}) (2022 - Present)
 Leading technical initiatives across GOTO Logistics and Marketplace divisions.
 
 **Highlights:**
@@ -16,7 +16,7 @@ Leading technical initiatives across GOTO Logistics and Marketplace divisions.
 - Routing engine optimization (90% latency reduction)
 - Warehouse automation algorithms
 
-## [Shadowfax]({{ '/projects/shadowfax' | relative_url }}) (2021 - 2022)
+## [Data Scientist @ Shadowfax]({{ '/projects/shadowfax' | relative_url }}) (2021 - 2022)
 Hyperlocal delivery optimization and ML-driven forecasting.
 
 **Highlights:**
@@ -24,7 +24,7 @@ Hyperlocal delivery optimization and ML-driven forecasting.
 - Allocation system refactoring
 - Data Science platform development
 
-## [Ninjacart]({{ '/projects/ninjacart' | relative_url }}) (2019 - 2021)
+## [Data Scientist @ Ninjacart]({{ '/projects/ninjacart' | relative_url }}) (2019 - 2021)
 Fresh produce supply chain transformation and logistics optimization.
 
 **Highlights:**

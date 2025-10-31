@@ -42,8 +42,8 @@ Ghaziabad, India
 
 ## Tech Stack
 
-**Languages:** Python, Golang, SQL
-**Optimization:** OR-Tools, Constraint Programming
-**ML/DL:** TensorFlow, XGBoost, scikit-learn, Reinforcement Learning
-**Infrastructure:** Kafka, Redis, BigQuery, MaxCompute, PySpark
-**Cloud:** GCP, AWS, Alibaba Cloud, Tencent Cloud
+- **Languages:** Python, Golang, SQL
+- **Optimization:** OR-Tools, Constraint Programming
+- **ML/DL:** TensorFlow, XGBoost, scikit-learn, Reinforcement Learning
+- **Infrastructure:** Kafka, Redis, BigQuery, MaxCompute, PySpark
+- **Cloud:** GCP, AWS, Alibaba Cloud, Tencent Cloud

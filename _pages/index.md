@@ -31,11 +31,12 @@ Operations Research & Supply Chain Scientist with expertise in logistics engines
 
 **Core Skills:** Vehicle Routing, Constraint Programming, Time Series Forecasting, Allocation Systems, Cloud Infrastructure
 
-**Tech Stack:**
-**Languages:** Python, Golang, SQL
-**Optimization:** OR-Tools, Constraint Programming, Min-Cost Max-Flow
-**ML/DL:** TensorFlow, XGBoost, scikit-learn, Reinforcement Learning, Transformers
-**Infrastructure:** Kafka, Redis, BigQuery, MaxCompute, PySpark
-**Cloud:** GCP, AWS, Alibaba Cloud, Tencent Cloud
+### Tech Stack
+
+- **Languages:** Python, Golang, SQL
+- **Optimization:** OR-Tools, Constraint Programming
+- **ML/DL:** TensorFlow, XGBoost, scikit-learn, Reinforcement Learning
+- **Infrastructure:** Kafka, Redis, BigQuery, MaxCompute, PySpark
+- **Cloud:** GCP, AWS, Alibaba Cloud, Tencent Cloud
 
 [View All Projects]({{ '/projects' | relative_url }}) | [About Me]({{ '/about' | relative_url }})
